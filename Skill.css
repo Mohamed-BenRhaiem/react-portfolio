@@ -1,0 +1,11 @@
+.skills{
+    display: flex;
+    padding-left: 3% !important;
+    gap: 56px;
+}
+.skills-wrapper{
+    margin-top: 200px;
+}
+#root > div.container.card-wrapper.mt-5 > div{
+    display: none;
+}

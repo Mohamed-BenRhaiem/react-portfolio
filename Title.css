@@ -1,0 +1,9 @@
+h4{
+    color: var(--title-color);
+    font-size: 28px;
+}
+h5{
+    color: var(--title-color);
+    font-size:15px;
+    opacity: 0.8;
+}
