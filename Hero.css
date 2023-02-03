@@ -1,0 +1,27 @@
+:root{
+    --dark-color:#343A40;
+}
+
+h1,h5{
+    color: var(--dark-color);
+}
+h1{
+    font-size: 5rem;
+}
+
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    margin-top: 10%;
+
+}
+.btnGroup{
+    min-width: max-content;
+}
+
+img{
+    width: 50%;
+}

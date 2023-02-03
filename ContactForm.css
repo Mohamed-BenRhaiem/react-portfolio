@@ -1,0 +1,25 @@
+.contact-card-wrapper{
+    width: 70vw;
+    max-width: 80vw;
+    position: relative;
+    min-height: 45vh;
+    overflow: hidden;
+}
+form{
+    position: absolute;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+    gap: 10px;
+    max-width: 80vw;
+}
+form:after{
+    content: '';
+    border: black solid 1px;
+    opacity: .1;
+    height: 106%;
+    width: 1px;
+    position: absolute;
+    left: 105%;
+}

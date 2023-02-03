@@ -1,0 +1,19 @@
+img.my-image{
+    padding: 3px !important;
+    border: rgb(214, 211, 211) 1px solid !important;
+    width: 210px !important;
+    height: 210px !important;
+}
+.personal-data{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    min-height: 70vh !important;
+    min-width: 100vw !important;
+    
+}
+.personal-info{
+    max-width: 60vw !important;
+
+}

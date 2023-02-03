@@ -1,0 +1,20 @@
+#socialIcons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.social-icon{
+    border: var(--primary-color) 2px solid !important;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.social-icon:hover{
+    background-color: var(--primary-color);
+    transition: .5s;
+    color: #fff;
+}
