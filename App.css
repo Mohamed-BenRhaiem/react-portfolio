@@ -1,0 +1,20 @@
+:root{
+  --primary-color:#FF7A57;
+  --title-color:#495057;
+  --secondary-color:gray;
+  --radius:45%;
+  --padding:10px;
+  
+}
+.active{
+  color: var(--primary-color) !important;
+}
+body{
+  background-color: #fff;
+}
+ul{
+  list-style-type: none;
+}
+#root > div > div.container.card-wrapper.mt-5 > div{
+  display: none;
+}
