@@ -2,11 +2,13 @@ import './ContactForm.css'
 import CvButton from '../button/Button'
 import Title, { SubTitle } from '../title/Title'
 import PersonalData from '../personalData/PersonalData'
+import { FaAddressCard,FaMobile,FaEnvelope } from 'react-icons/fa'
+
 function ContactForm() {
   const Location =[
-    {title : 'Location' ,subtitle : '12345 Fake ST NoWhere AB Country'},
-    {title : 'Phone Number' ,subtitle : '(216) 52097207'},
-    {title : 'Email Address' ,subtitle : 'mohamedbenrhayemm@gmail.com'}
+    {contactIcon:<FaAddressCard /> ,title : 'Location' ,subtitle : '12345 Fake ST NoWhere AB Country'},
+    {contactIcon:<FaMobile />,title : 'Phone Number' ,subtitle : '(216) 52097207'},
+    {contactIcon:<FaEnvelope />,title : 'Email Address' ,subtitle : 'mohamedbenrhayemm@gmail.com'}
   ]
  const mapInfos = Location.map(mapInfo=><PersonalData title = {mapInfo.title} subtitle ={mapInfo.subtitle} />)
   return (
