@@ -12,6 +12,12 @@ button{
     border: none;
     padding: var(--padding);
     color: #fff;
+    transition:0.3s
+}
+.hirebtn:hover{
+    background-color: #1c1c1c;
+    transition:0.3s
+    
 }
 
 .cvbtn{
@@ -20,4 +26,10 @@ button{
     padding: var(--padding);
     border: none;
     color: #fff;
+    transition:  0.3s;
+
+}
+.cvbtn:hover{
+    background-color: orangered;
+    transition:  0.3s;
 }
